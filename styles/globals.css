@@ -1,5 +1,6 @@
 html,
 body {
+  scroll-behavior: smooth;
   text-align: center;
   color: #113743;
   background-color: #E4E3DB;
@@ -9,29 +10,78 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-h1, h5 {
+h1, h4 {
   color: #C5001A;
+  padding-top: 10px;
 }
 
 a {
   color: #C5BEBA;
   border-radius: 10px;
   padding: 3px;
-  margin: 5px;
   text-decoration: none;
 }
 
 img {
-  background-color: none;
-  padding: 5px;
-  height: 55px;
-  width: 60px;
+  margin: 10px 25px 10px 25px;
+  height: 65px;
+  width: 70px;
 }
 
 .about {
   margin: auto;
   max-width: 550px;
 }
+
+#navbar {
+  background-color: #113743;
+  position: fixed;
+  top: -100%;
+  width: 95%;
+  display: block;
+  transition: top 0.4s;
+  opacity: 90%;
+}
+
+#littleimages {
+  float: right;
+  display: block;
+  color: #E4E3DB;
+  text-align: center;
+  padding: 0px 5px 0px;
+}
+
+#littlecarlo {
+  float: left;
+  display: block;
+  color: #C5001A;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#navbar img{
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul h5 {
+  color: #C5001A;
+  background-color: #C5BEBA;
+  margin: 10px auto;
+  padding: 2px;
+  width: 200px;
+  border-radius: 15px;
+}
+ul h5:hover {
+  background-color: #ddd;
+  color: #113743;
+}
+
+
 
 * {
   box-sizing: border-box;

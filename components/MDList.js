@@ -12,7 +12,7 @@ export default function MDList({ posts }) {
             return (
               <li key={post.slug}>
                 <Link href={{ pathname: `/mark/${post.slug}` }}>
-                  <a>{post.frontmatter.title}</a>
+                  <a><h5>{post.frontmatter.title}</h5></a>
                 </Link>
               </li>
             );
