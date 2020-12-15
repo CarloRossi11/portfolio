@@ -1,0 +1,23 @@
+html,
+body {
+  text-align: center;
+  color: #00293c;
+  background-color: #f1f3ce;
+  padding: 10px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: #1e656d;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* alt-color: #f62a00
+https://www.canva.com/learn/100-color-combinations/ #25 #73 #69 #81*/
+
