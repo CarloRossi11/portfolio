@@ -1,6 +1,6 @@
 const Footer = () => {
     return(<footer>
-        <h1>I am the Footer</h1>
+        <p>Webstie built on Next.js by Carlo Berardelli</p>
     </footer>)
 }
 
