@@ -15,13 +15,6 @@ h1, h4 {
   padding-top: 10px;
 }
 
-a {
-  color: #C5BEBA;
-  border-radius: 10px;
-  padding: 3px;
-  text-decoration: none;
-}
-
 .lildesc {
   padding: 0px 0px 10px 0px;
   margin: 0px 0px 10px 0px;
@@ -87,6 +80,34 @@ ul h5 {
 ul h5:hover {
   background-color: #ddd;
   color: #113743;
+}
+
+.smalls {
+  margin-top: 100px;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+}
+
+.backtoport {
+  color: #C5001A;
+  background-color: #C5BEBA;
+  border-radius: 10px;
+  padding: 3px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.checkit {
+  color: #C5001A;
+  background-color: #C5BEBA;
+  border-radius: 10px;
+  padding: 3px;
+  text-decoration: none;
+  margin-bottom: 125px;
 }
 
 * {
