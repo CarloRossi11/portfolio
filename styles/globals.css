@@ -1,23 +1,53 @@
 html,
 body {
   text-align: center;
-  color: #00293c;
-  background-color: #f1f3ce;
+  color: #113743;
+  background-color: #E4E3DB;
   padding: 10px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+h1, h5 {
+  color: #C5001A;
+}
+
 a {
-  color: #1e656d;
+  color: #C5BEBA;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 5px;
   text-decoration: none;
+}
+
+img {
+  background-color: none;
+  padding: 5px;
+  height: 55px;
+  width: 60px;
+}
+
+.about {
+  margin: auto;
+  max-width: 550px;
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* alt-color: #f62a00
+/* 
+#73=
+#C50O1A Fire Engine Red
+#E4E3DB Light Gray
+#113743 Denim
+#C5BEBA Concrete (pale brown/gray)
+#25=
+#00293c dark blue
+#00293c yellowish baige
+#1e656d  teal
+alt-color: #f62a00
+
 https://www.canva.com/learn/100-color-combinations/ #25 #73 #69 #81*/
 

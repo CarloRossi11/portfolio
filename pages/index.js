@@ -7,12 +7,16 @@ import ReactMarkdown from 'react-markdown'
 
 const Index = ({allMD}) => {
 
-  return (<Layout>
-    <p>I am a software engineer with a background in procurement and project management. I have experience working directly with customers to help meet and exceed their goals. I am always looking for new ways to increase my skill set and bring an increased value to those I work with.
-</p>
-<p>Skillz</p>
-    <MDList posts={allMD}/>
-  </Layout>)
+  return (
+    <Layout>
+      <h5>About</h5>
+      <p className="about">I'm a software engineer with a background in procurement and project management. I have experience working directly with customers to help meet and exceed their goals. I'm always looking for new ways to increase my skill set and bring an increased value to those I work with.
+      </p>
+      <h5>Skillz</h5>
+      <p>buncha skills</p>
+      <MDList posts={allMD}/>
+    </Layout>
+  )
 }
 
 export default Index
