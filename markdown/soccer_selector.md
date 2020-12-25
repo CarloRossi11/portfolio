@@ -4,8 +4,11 @@ link: 'https://carlorossi11.github.io/soccer-selector/'
 description: "Try to find the best team. Hint: It's AC Milan"
 ---
 
-Humblebrag sartorial man braid ad vice, wolf ramps in cronut proident cold-pressed occupy organic normcore. Four loko tbh tousled reprehenderit ex enim qui banjo organic aute gentrify church-key. Man braid ramps in, 3 wolf moon laborum iPhone venmo sunt yr elit laboris poke succulents intelligentsia activated charcoal. Gentrify messenger bag hot chicken brooklyn. Seitan four loko art party, ut 8-bit live-edge heirloom. Cornhole post-ironic glossier officia, man braid raclette est organic knausgaard chillwave.
+Soccer Selector is a web application that is used to navigate through the top 5 soccer leagues in Europe to find information on individual teams. Users start on a page where they click through a carousel of league logo images to explore. Once a league is selected, the teams of that league populate on the field below and you can click on a team to generate a modal with that team's info.
 
-- Technologies Used
-- I am in a list
-- Woo hoo
+#### Technologies Used
+- HTML
+- CSS
+- Flexbox
+- JavaScript
+- AJAX request to API: https://www.api-football.com/
