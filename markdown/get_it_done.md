@@ -1,6 +1,6 @@
 ---
 title: 'Get It Done'
-link: 'https://github.com/CarloRossi11/mongoproject2'
+link: 'https://github.com/CarloRossi11/get-it-done'
 link2: 'https://cbzenproject2.herokuapp.com/'
 description: "A simple todo app that explores the different features of Svelte"
 ---
@@ -9,10 +9,10 @@ Get It Done is a todo app that utilizes many of the Svelte features and function
 
 #### Technologies Used
 - **Svelte Technologies:**
-- slot
-- bind
-- transitions
+- <slot>
+- bind:
+- Transitions
 - #if
 - #each
 - #await
-- $: reactive declarations
+- $: (reactive declarations)
