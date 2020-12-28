@@ -1,9 +1,8 @@
+Live Link: https://portfolio-alpha-orpin.vercel.app/
+
 ToDo:
-- Populate Project details
 - Update resume and resume link
 - Make Responsive
-- Deploy
-
 
 
 # NextJS Markdown Template
