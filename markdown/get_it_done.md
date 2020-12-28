@@ -1,7 +1,7 @@
 ---
 title: 'Get It Done'
 link: 'https://github.com/CarloRossi11/get-it-done'
-link2: 'https://cbzenproject2.herokuapp.com/'
+link2: 'https://brave-mccarthy-afff39.netlify.app/'
 description: "A simple todo app that explores the different features of Svelte"
 ---
 
