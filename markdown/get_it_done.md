@@ -1,0 +1,21 @@
+---
+title: 'Get It Done'
+link: 'https://github.com/CarloRossi11/mongoproject2'
+link2: 'https://cbzenproject2.herokuapp.com/'
+description: "A simple todo app that explores the different features of Svelte"
+---
+
+Get It Done is a todo app that utilizes many of the Svelte features and functionalities. Users can sign up and log in for full CRUD capabilites on their todo lists. See below for a list of these svelte features, and there's even a pretty neat loading animation built with CSS and JS in the "Loader" component.
+
+#### Technologies Used
+- Svelte
+    - slot
+    - bind
+    - transitions
+    - #if
+    - #each
+    - #await
+    - $: reactive declarations
+- HTML
+- JavaScript
+- CSS

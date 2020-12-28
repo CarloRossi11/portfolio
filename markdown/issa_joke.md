@@ -1,11 +1,16 @@
 ---
 title: 'Issa Joke'
 link: 'https://github.com/CarloRossi11/mongoproject2'
+link2: 'https://cbzenproject2.herokuapp.com/'
 description: "Keep a record of your best jokes, or just steal somebody else's"
 ---
 
-Humblebrag sartorial man braid ad vice, wolf ramps in cronut proident cold-pressed occupy organic normcore. Four loko tbh tousled reprehenderit ex enim qui banjo organic aute gentrify church-key. Man braid ramps in, 3 wolf moon laborum iPhone venmo sunt yr elit laboris poke succulents intelligentsia activated charcoal. Gentrify messenger bag hot chicken brooklyn. Seitan four loko art party, ut 8-bit live-edge heirloom. Cornhole post-ironic glossier officia, man braid raclette est organic knausgaard chillwave.
+Sometimes you need a joke in a pinch, or you hear a joke you like, but then forget. Fret not, Issa Joke is the web app you didn't know you need. When arriving on the site, you can see jokes that users (and potentially yourself) have created and shared. You can sign up and log in to post your own jokes to the page as well. 
 
-- Look at me
-- I am in a list
-- Woo hoo
+#### Technologies Used
+- Express
+- Node Js
+- React
+- HTML
+- JavaScript
+- CSS

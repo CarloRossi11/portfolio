@@ -16,7 +16,8 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
         </div>
         <article>
           <h1>{frontmatter.title}</h1>
-          <a className="checkit" href={frontmatter.link} target="_blank">Check It Out!</a>
+          <a className="checkit" href={frontmatter.link} target="_blank">GitHub</a>
+          <a className="checkit" href={frontmatter.link2} target="_blank">Live Demo</a>
           <div className="mdbod">
             <ReactMarkdown source={markdownBody} />
           </div>

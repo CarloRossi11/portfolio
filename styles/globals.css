@@ -83,11 +83,12 @@ ul h5:hover {
 }
 
 .smalls {
-  color: #C5BEBA;
-  font-size: 14px;
+  color: #113743;
+  font-size: 12px;
   display: inline-block;
+  margin: 20px;
   padding: 20px;
-  border-top: 1px solid #C5BEBA;
+  border-top: 1px solid #113743;
 }
 
 a {
@@ -113,8 +114,9 @@ a {
   color: #C5001A;
   background-color: #C5BEBA;
   border-radius: 10px;
-  padding: 3px;
+  padding: 4px;
   text-decoration: none;
+  margin: 5px 4px 5px 4px;
 }
 
 .mdbod{
