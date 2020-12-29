@@ -15,11 +15,11 @@ const Index = ({allMD}) => {
     function scrollFunction() {
       if (
         document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20
+        document.documentElement.scrollTop > 188
       ) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-50px";
+        document.getElementById("navbar").style.top = "-75px";
       }
     }
   }
@@ -30,7 +30,7 @@ const Index = ({allMD}) => {
       <p className="about">I'm a software engineer with a background in procurement and project management. I have experience working directly with customers to help meet and exceed their goals. I'm always looking for new ways to increase my skill set and bring an increased value to those I work with.
       </p>
       <h4>Skills</h4>
-      <p className="about">HTML5 | CSS | JavaScript | jQuery | Bootstrap | Git | Git Hub | Express | NodeJs | MongoDB | NoSQL | AWS | React | Ruby | Ruby on Rails | SQL | Next.js | PostgreSQL | Svelte </p>
+      <p className="skills">HTML5 | CSS | JavaScript | jQuery | Bootstrap | Git | Git Hub | Express | NodeJs | MongoDB | NoSQL | AWS | React | Ruby | Ruby on Rails | SQL | Next.js | PostgreSQL | Svelte </p>
       <h4>Projects</h4>
       <MDList posts={allMD}/>
     </Layout>
