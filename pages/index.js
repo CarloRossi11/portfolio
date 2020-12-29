@@ -6,7 +6,7 @@ import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 
 const Index = ({allMD}) => {
-
+  
   if (typeof window !== "undefined") {
     window.onscroll = function () {
       scrollFunction();

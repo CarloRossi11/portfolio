@@ -7,7 +7,7 @@ export default function Layout({ children, pageTitle, ...props }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{pageTitle}</title>
+        <title>Carlo Berardelli{pageTitle}</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
