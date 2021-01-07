@@ -16,7 +16,7 @@ const Index = ({allMD}) => {
       if (
         document.body.scrollTop > 20 ||
         // determines where in the scroll the navbar will dropdown
-        document.documentElement.scrollTop > 188
+        document.documentElement.scrollTop > 375
       ) {
         document.getElementById("navbar").style.top = "0";
       } else {

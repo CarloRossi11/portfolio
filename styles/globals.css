@@ -4,8 +4,8 @@ body {
   text-align: center;
   /* color: #113743;
   background-color: #E4E3DB; */
-  padding-left: 5px;
-  padding-right: 5px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -16,7 +16,7 @@ body {
   background-size:  400% 400%;
   animation: gradient 20s ease infinite;
   width: auto;
-  height: 30vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,12 +50,9 @@ h3{
 }
 
 h4 {
-  color: #C5001A;
+  color: black;
   padding-top: 10px;
-  text-shadow: 0px 1px 3px #113743;
-}
-
-h4{
+  text-shadow: 0px 1px 3px black;
   margin-top: 20px;
 }
 
@@ -69,10 +66,16 @@ img {
   margin: 10px 25px 10px 25px;
   height: 65px;
   width: 70px;
-  filter: drop-shadow(0px 2px 3px #222);
+  filter: drop-shadow(0px 2px 3px black);
 }
 img:hover{
-  filter: drop-shadow(0px 0px 1px #222);
+  filter: drop-shadow(0px 0px 1px black);
+}
+
+.contactImages{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .about, .skills{
@@ -82,8 +85,8 @@ img:hover{
 
 .skills{
   padding: 20px;
-  background-color:  #f0efe6;
-  border: 2px solid  #c2c1ba;
+  background-color:  white;
+  border: 2px solid  #e6e6e4;
   box-shadow: inset 0px 0px 7px 1px #a5a49c;
 }
 
@@ -92,24 +95,25 @@ p {
 }
 
 #navbar {
-  background-color: #113743;
+  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+  background-size:  400% 400%;
+  animation: gradient 20s ease infinite;
   position: fixed;
   top: -100%;
-  width: 99%;
+  width: 100%;
   display: block;
   transition: top 0.4s;
-  opacity: 90%;
   margin: auto;
-  box-shadow: 0px 2px 3px black;
+  box-shadow: 0px 2px 5px black;
   z-index: 4;
 }
 
 #littleimages {
   float: right;
   display: block;
-  color: #E4E3DB;
   text-align: center;
   padding: 0px 5px 0px;
+  filter: drop-shadow(0px 1px 1px #222) !important;
 }
 #littleimages:hover{
   filter: drop-shadow(0px 0px 0px #222);
@@ -118,7 +122,7 @@ p {
 #littlecarlo {
   float: left;
   display: block;
-  color: #C5001A;
+  color: white;
   padding-left: 20px;
   padding-top: 10px;
 }
@@ -133,13 +137,13 @@ ul {
 }
 
 ul h5 {
-  color: #C5001A;
+  color: #cb6b8e;
   background-color: #C5BEBA;
   margin: 10px auto 0px;
   padding: 2px;
   width: 200px;
   border-radius: 15px;
-  box-shadow: 0px 1px 5px #113743;
+  box-shadow: 0px 1px 5px black;
 }
 ul h5:hover {
   background-color: #ddd;
@@ -218,7 +222,7 @@ li{
     height: 15%;
   }
   #navbar{
-    width: 95%;
+    width: 100%;
   }
 }
 
