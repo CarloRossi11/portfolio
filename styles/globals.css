@@ -14,7 +14,7 @@ body {
 .intro{
   background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
   background-size:  400% 400%;
-  animation: gradient 20s ease infinite;
+  animation: gradient 10s ease infinite alternate;
   width: auto;
   height: 40vh;
   display: flex;
@@ -52,38 +52,81 @@ h3{
 h4 {
   color: black;
   padding-top: 10px;
-  text-shadow: 0px 1px 3px black;
+  /* text-shadow: 0px 1px 1px black; */
   margin-top: 20px;
+  max-width: 150px;
+  margin: auto;
+  transition: all .5s linear; /* Animation */
+}
+h4:hover{
+  transform: scale(1.5);
+  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: gradient 10s linear infinite alternate;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
 
 .lildesc {
   padding: 0px 0px 10px 0px;
   margin: 10px 0px 15px 0px;
-
 }
 
 img {
   margin: 10px 25px 10px 25px;
   height: 65px;
   width: 70px;
-  filter: drop-shadow(0px 2px 3px black);
 }
-img:hover{
+
+#bigimages{
+  filter: drop-shadow(0px 1px 2px black);
+}
+#bigimages:hover{
   filter: drop-shadow(0px 0px 1px black);
 }
 
 .contactImages{
-  margin-top: 5%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-around;
 }
 
+.aboutsec{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3% auto 3% auto;
+  max-width: 1000px;
+}
+
+.about{
+  float: left;
+}
+
+#los{
+  float: right;
+  width: 200px;
+  height: auto;
+}
+
 .about, .skills{
-  margin: auto;
   max-width: 550px;
 }
 
+.skillssec{
+  padding: 0% 5% 3% 5%;
+}
+
 .skills{
+  margin: auto;
   padding: 20px;
   background-color:  white;
   border: 2px solid  #e6e6e4;
@@ -95,16 +138,14 @@ p {
 }
 
 #navbar {
-  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
-  background-size:  400% 400%;
-  animation: gradient 20s ease infinite;
+  background-color: white;
   position: fixed;
   top: -100%;
   width: 100%;
   display: block;
   transition: top 0.4s;
   margin: auto;
-  box-shadow: 0px 2px 5px black;
+  box-shadow: 0px 1px 5px black;
   z-index: 4;
 }
 
@@ -113,7 +154,7 @@ p {
   display: block;
   text-align: center;
   padding: 0px 5px 0px;
-  filter: drop-shadow(0px 1px 1px #222) !important;
+  filter: drop-shadow(0px 1px 1px #222);
 }
 #littleimages:hover{
   filter: drop-shadow(0px 0px 0px #222);
@@ -122,9 +163,24 @@ p {
 #littlecarlo {
   float: left;
   display: block;
-  color: white;
   padding-left: 20px;
   padding-top: 10px;
+  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: gradient 10s linear infinite alternate;
+  font-family: Open Sans, sans-serif;
+  font-weight: 500;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
 
 #navbar img{

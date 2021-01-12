@@ -15,9 +15,9 @@ const Header = () => {
         </div>
 
         <div className="contactImages">
-        <a href="https://www.linkedin.com/in/carlo-codes/" target="_blank"><img src="/LI-In-Bug.png" alt="GitHub"></img></a>
-        <a href="https://github.com/CarloRossi11" target="_blank"><img src="/Octocat.png" alt="LinkedIn"></img></a>
-        <a href="https://docs.google.com/document/d/e/2PACX-1vQf5_UDHShUSdCai0gtzVKNpqV_OlNReB63InZyEcfk7zLoKuQ5eejJs7IFU9Zc8Q/pub" target="_blank"><img src="/resume.png" alt="Resume"></img></a>
+        <a id="bigimages"href="https://www.linkedin.com/in/carlo-codes/" target="_blank"><img src="/LI-In-Bug.png" alt="GitHub"></img></a>
+        <a id="bigimages"href="https://github.com/CarloRossi11" target="_blank"><img src="/Octocat.png" alt="LinkedIn"></img></a>
+        <a id="bigimages"href="https://docs.google.com/document/d/e/2PACX-1vQf5_UDHShUSdCai0gtzVKNpqV_OlNReB63InZyEcfk7zLoKuQ5eejJs7IFU9Zc8Q/pub" target="_blank"><img src="/resume.png" alt="Resume"></img></a>
         </div>
 
     </header>)
