@@ -57,7 +57,7 @@ h4 {
   margin: auto;
   transition: all .5s linear; /* Animation */
 }
-h4:hover{
+/* h4:hover{
   transform: scale(1.5);
   background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
   -webkit-background-clip: text;
@@ -72,7 +72,7 @@ h4:hover{
   100% {
     background-position: 100%;
   }
-}
+} */
 
 .lildesc {
   padding: 0px 0px 10px 0px;
@@ -241,17 +241,22 @@ a {
 }
 
 .checkit {
-  color: #C5001A;
-  background-color: #C5BEBA;
+  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: gradient 10s linear infinite alternate;
+  font-family: Open Sans, sans-serif;
+  background-color: whitesmoke;
   border-radius: 10px;
   padding: 4px;
   text-decoration: none;
-  margin: 5px 10px 5px 10px;
-  box-shadow: 0px 1px 5px #113743;
+  margin: 5%;
+  box-shadow: 0px 1px 3px black;
 }
 .checkit:hover{
   background-color: #ddd;
-  color: #113743;
+  color: black;
   box-shadow: 0px 0px 2px
 }
 
@@ -264,7 +269,7 @@ li{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 3% auto 3% auto;
+  margin: 2% auto 7% auto;
   max-width: 1000px;
 }
 
@@ -284,6 +289,23 @@ li{
 }
 
 @media all and (max-width: 430px) {
+
+  .thegoods, .screenie{
+    float: none;
+  }
+  .thegoods{
+    border-bottom: black solid 1px;
+    padding-bottom: 5%;
+  }
+  .screenie{
+    padding-top: 5%;
+    width: 75%;
+  height: auto;
+  }
+
+  li{
+    display: inline; 
+  }
 
   h1{
     letter-spacing: 1rem;

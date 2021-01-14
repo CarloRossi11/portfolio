@@ -36,7 +36,7 @@ const Index = ({allMD}) => {
       </div>
       <div className="skillssec">
         <h4>- Skills -</h4>
-        <p className="skills">HTML5 | CSS | JavaScript | jQuery | Bootstrap | Git | Git Hub | Express | NodeJs | MongoDB | NoSQL | AWS | React | Ruby | Ruby on Rails | SQL | Next.js | PostgreSQL | Svelte </p>
+        <p className="skills">HTML5 | CSS | JavaScript | jQuery | Bootstrap | Git | Git Hub | Express | NodeJs | MongoDB | NoSQL | React | Ruby | Ruby on Rails | SQL | Next.js | PostgreSQL | Svelte </p>
       </div>
       <h4>- Projects -</h4>
       <MDList posts={allMD}/>
