@@ -32,7 +32,7 @@ const Index = ({allMD}) => {
           <h4>- About -</h4>
           <p>I'm a software engineer with a background in procurement and project management. I have experience working directly with customers to help meet and exceed their goals. I'm always looking for new ways to increase my skill set and bring an increased value to those I work with.</p>
         </div>
-        <img id="los" src="/Lean_Cropped.JPG"></img>
+        <img id="los" src="/Lean_Cropped.png"></img>
       </div>
       <div className="skillssec">
         <h4>- Skills -</h4>
