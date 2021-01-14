@@ -261,7 +261,22 @@ a {
 }
 
 li{
-  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3% auto 3% auto;
+  max-width: 1000px;
+}
+
+.thegoods{
+  margin: auto;
+  float: right;
+}
+
+.screenie{
+  float: left;
+  width: 50%;
+  height: auto;
 }
 
 * {
