@@ -93,7 +93,8 @@ img {
 }
 
 .contactImages{
-  padding: 2% 5% 1% 5%;
+  padding: 3% 5% 1% 5%;
+  margin-bottom: 5%;
   display: flex;
   justify-content: space-around;
 }
@@ -102,7 +103,7 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 3% auto 3% auto;
+  margin: 3% auto 0% auto;
   max-width: 1000px;
 }
 
@@ -121,7 +122,7 @@ img {
 }
 
 .skillssec{
-  padding: 0% 5% 3% 5%;
+  padding: 5% 5% 6% 5%;
 }
 
 .skills{
@@ -269,7 +270,7 @@ li{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 2% auto 7% auto;
+  margin: 0% auto 7% auto;
   max-width: 1000px;
 }
 
@@ -289,27 +290,38 @@ li{
 }
 
 @media all and (max-width: 430px) {
+  
+  .contactImages{
+    display: contents;
+    margin: auto;
+  }
+  
+  #bigimages{
+    width: 15%;
+    height: 15%;
+  }
 
   .thegoods, .screenie{
     float: none;
   }
   .thegoods{
     border-bottom: black solid 1px;
-    padding-bottom: 5%;
+    padding: 0% 5% 5% 5%;
+
   }
   .screenie{
     padding-top: 5%;
     width: 75%;
-  height: auto;
+    height: auto;
   }
 
   li{
     display: inline; 
   }
-
+  
   h1{
     letter-spacing: 1rem;
-    font-size: 300%;
+    font-size: 285%;
   }
 
   #los{
@@ -322,10 +334,6 @@ li{
 
   #littleimages{
     width: 20%
-  }
-  #bigimages{
-    width: 15%;
-    height: 15%;
   }
   #navbar{
     width: 100%;
