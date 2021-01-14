@@ -16,7 +16,7 @@ const Index = ({allMD}) => {
       if (
         document.body.scrollTop > 20 ||
         // determines where in the scroll the navbar will dropdown
-        document.documentElement.scrollTop > 375
+        document.documentElement.scrollTop > 360
       ) {
         document.getElementById("navbar").style.top = "0";
       } else {
@@ -29,16 +29,16 @@ const Index = ({allMD}) => {
     <Layout>
       <div className="aboutsec">
         <div className="about">
-          <h4>About</h4>
+          <h4>- About -</h4>
           <p>I'm a software engineer with a background in procurement and project management. I have experience working directly with customers to help meet and exceed their goals. I'm always looking for new ways to increase my skill set and bring an increased value to those I work with.</p>
         </div>
         <img id="los" src="/Lean_Cropped.JPG"></img>
       </div>
       <div className="skillssec">
-        <h4>Skills</h4>
+        <h4>- Skills -</h4>
         <p className="skills">HTML5 | CSS | JavaScript | jQuery | Bootstrap | Git | Git Hub | Express | NodeJs | MongoDB | NoSQL | AWS | React | Ruby | Ruby on Rails | SQL | Next.js | PostgreSQL | Svelte </p>
       </div>
-      <h4>Projects</h4>
+      <h4>- Projects -</h4>
       <MDList posts={allMD}/>
     </Layout>
   )
