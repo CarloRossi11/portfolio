@@ -14,9 +14,11 @@ export default function MDList({ posts }) {
                 <Link href={{ pathname: `/mark/${post.slug}` }}>
                   <a><h5>{post.frontmatter.title}</h5></a>
                 </Link>
-                {/* <Link href={{ pathname: `/mark/${post.slug}` }}>
-                </Link> */}
+                <img src={post.frontmatter.screenshot} alt="cocktail"></img>
                 <p className="lildesc">{post.frontmatter.description}</p>
+                <p className="lildesc">{post.frontmatter.technologies}</p>
+                <a className="checkit" href={post.frontmatter.link} target="_blank">GitHub</a>
+                <a className="checkit" href={post.frontmatter.link2} target="_blank">Live Demo</a>
 
               </li>
             );
