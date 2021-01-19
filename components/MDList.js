@@ -1,7 +1,14 @@
 import Link from "next/link";
+import Aos from "aos"
+import { useEffect } from "react";
+import "aos/dist/aos.css"
 
 export default function MDList({ posts }) {
   if (posts === "undefined") return null;
+
+  useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
 
   return (
     <div>
@@ -13,8 +20,8 @@ export default function MDList({ posts }) {
               <li key={post.slug}>
                 {/* <Link href={{ pathname: `/mark/${post.slug}` }}> */}
                 {/* </Link> */}
-                <img className="screenie" src={post.frontmatter.screenshot} alt="Project Screenshot"></img>
-                <div className="thegoods">
+                <img data-aos="fade-right" className="screenie" src={post.frontmatter.screenshot} alt="Project Screenshot"></img>
+                <div data-aos="fade-left" className="thegoods">
                   <a><h4>{post.frontmatter.title}</h4></a>
                   <br></br>
                   <a className="checkit" href={post.frontmatter.link} target="_blank">GitHub</a>

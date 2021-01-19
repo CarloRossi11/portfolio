@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.0.0-beta1",
     "gray-matter": "^4.0.2",
     "next": "10.0.3",
