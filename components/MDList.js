@@ -7,7 +7,7 @@ export default function MDList({ posts }) {
   if (posts === "undefined") return null;
 
   useEffect(() => {
-    Aos.init({duration: 2000})
+    Aos.init({duration: 1000})
   }, [])
 
   return (
