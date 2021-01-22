@@ -15,9 +15,9 @@ export default function Layout({ children, pageTitle, ...props }) {
           crossorigin="anonymous"
         />
       </Head>
-      <Header />
+      <Header/>
       <main className="layout">{children}</main>
-      <Footer />
+      <Footer/>
     </>
   );
 }
