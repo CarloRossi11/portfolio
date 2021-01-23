@@ -235,6 +235,10 @@ li{
   float: right;
 }
 
+.projtitle{
+  max-width: 50%;
+}
+
 .screenie{
   float: left;
   width: 50%;

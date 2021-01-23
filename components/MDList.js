@@ -22,7 +22,7 @@ export default function MDList({ posts }) {
                 {/* </Link> */}
                 <img data-aos="fade-right" className="screenie" src={post.frontmatter.screenshot} alt="Project Screenshot"></img>
                 <div data-aos="fade-left" className="thegoods">
-                  <a><h4>{post.frontmatter.title}</h4></a>
+                  <a><h4 className= "projtitle">{post.frontmatter.title}</h4></a>
                   <br></br>
                   <a className="checkit" href={post.frontmatter.link} target="_blank">GitHub</a>
                   <a className="checkit" href={post.frontmatter.link2} target="_blank">Live Demo</a>
