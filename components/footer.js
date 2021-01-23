@@ -1,6 +1,6 @@
 const Footer = () => {
     return(<footer>
-        <p className="smalls">Portfolio built on Next.js by Carlo Berardelli</p>
+        <p className="smalls">Carlo Berardelli 2021</p>
     </footer>)
 }
 
